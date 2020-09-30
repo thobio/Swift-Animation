@@ -13,6 +13,8 @@
 		3ACF4F352523323F00C6CDE5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3ACF4F332523323F00C6CDE5 /* Main.storyboard */; };
 		3ACF4F372523324100C6CDE5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3ACF4F362523324100C6CDE5 /* Assets.xcassets */; };
 		3ACF4F3A2523324100C6CDE5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3ACF4F382523324100C6CDE5 /* LaunchScreen.storyboard */; };
+		3ACF4F432523348D00C6CDE5 /* SubmitButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3ACF4F422523348D00C6CDE5 /* SubmitButton.swift */; };
+		3ACF4F4E2523A31800C6CDE5 /* Satisfy-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3ACF4F4D2523A31800C6CDE5 /* Satisfy-Regular.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		3ACF4F362523324100C6CDE5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3ACF4F392523324100C6CDE5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3ACF4F3B2523324100C6CDE5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3ACF4F422523348D00C6CDE5 /* SubmitButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubmitButton.swift; sourceTree = "<group>"; };
+		3ACF4F4D2523A31800C6CDE5 /* Satisfy-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Satisfy-Regular.ttf"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +60,7 @@
 		3ACF4F2C2523323F00C6CDE5 /* NewAnimation Test */ = {
 			isa = PBXGroup;
 			children = (
+				3ACF4F4C2523A30800C6CDE5 /* font */,
 				3ACF4F2D2523323F00C6CDE5 /* AppDelegate.swift */,
 				3ACF4F2F2523323F00C6CDE5 /* SceneDelegate.swift */,
 				3ACF4F312523323F00C6CDE5 /* ViewController.swift */,
@@ -63,8 +68,17 @@
 				3ACF4F362523324100C6CDE5 /* Assets.xcassets */,
 				3ACF4F382523324100C6CDE5 /* LaunchScreen.storyboard */,
 				3ACF4F3B2523324100C6CDE5 /* Info.plist */,
+				3ACF4F422523348D00C6CDE5 /* SubmitButton.swift */,
 			);
 			path = "NewAnimation Test";
+			sourceTree = "<group>";
+		};
+		3ACF4F4C2523A30800C6CDE5 /* font */ = {
+			isa = PBXGroup;
+			children = (
+				3ACF4F4D2523A31800C6CDE5 /* Satisfy-Regular.ttf */,
+			);
+			path = font;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -125,6 +139,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				3ACF4F3A2523324100C6CDE5 /* LaunchScreen.storyboard in Resources */,
+				3ACF4F4E2523A31800C6CDE5 /* Satisfy-Regular.ttf in Resources */,
 				3ACF4F372523324100C6CDE5 /* Assets.xcassets in Resources */,
 				3ACF4F352523323F00C6CDE5 /* Main.storyboard in Resources */,
 			);
@@ -138,6 +153,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				3ACF4F322523323F00C6CDE5 /* ViewController.swift in Sources */,
+				3ACF4F432523348D00C6CDE5 /* SubmitButton.swift in Sources */,
 				3ACF4F2E2523323F00C6CDE5 /* AppDelegate.swift in Sources */,
 				3ACF4F302523323F00C6CDE5 /* SceneDelegate.swift in Sources */,
 			);
